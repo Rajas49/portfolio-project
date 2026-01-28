@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Backend Engineer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1 id="name">Loading...</h1>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p id="bio">Loading...</p>
+            <div id="contact-info"></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div id="projects-container" class="projects-grid">
+                <p>Loading projects...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div id="skills-container">
+                <p>Loading skills...</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Interested in working together? Let's connect!</p>
+            
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject (optional)">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+                <div id="form-message" class="form-message"></div>
+            </form>
+            
+            <div id="social-links"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Your Portfolio. Built with FastAPI + Vanilla JS</p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
