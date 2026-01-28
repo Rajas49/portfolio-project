@@ -1,5 +1,5 @@
 // API Base URL
-const API_URL = 'http://localhost:8000/api';
+const API_URL = '/api';
 
 // Fetch and display About info
 async function loadAbout() {
