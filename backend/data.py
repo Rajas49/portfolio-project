@@ -3,28 +3,27 @@
 PROJECTS = [
     {
         "id": 1,
-        "title": "AI Resume Parser",
-        "description": "Built a resume parser using NLP to extract skills, experience, and education",
-        "technologies": ["Python", "FastAPI", "NLP", "spaCy"],
-        "github_url": "https://github.com/yourusername/project1",
+        "title": "Network Security Threat Detection System",
+        "description": "Developed a machine learning-powered web application to detect phishing and malicious network traffic using real-time classification techniques.",
+        "technologies": ["Python", "Machine Learning", "Flask", "Docker"],
+        "github_url": "https://github.com/Rajas49/Newtorksecurity",
         "demo_url": None,
         "image_url": "/static/images/project1.jpg"
     },
     {
         "id": 2,
-        "title": "Portfolio Website",
-        "description": "Personal portfolio with FastAPI backend and AI-powered features",
-        "technologies": ["Python", "FastAPI", "HTML", "CSS", "JavaScript"],
-        "github_url": "https://github.com/Rajas49?tab=repositories",
-        "demo_url": "https://yourportfolio.com",
+        "title": "News Researcher Application.",
+        "description": "Developed the News Researcher Application to provide rapid updates and in-depth analyses of current events.",
+        "technologies": ["Python", "Langchain", "OpenAI API", "Streamlit"],
+        "github_url": "https://github.com/Rajas49/-News-Researcher-Application",
         "image_url": "/static/images/project2.jpg"
     },
     {
         "id": 3,
-        "title": "Chat with My Resume",
+        "title": "Residential Property Price Valuation",
         "description": "AI chatbot that answers questions about my experience using RAG",
-        "technologies": ["Python", "LangChain", "OpenAI", "Vector DB"],
-        "github_url": "https://github.com/yourusername/resume-chat",
+        "technologies": ["Python", "Machine Learning"],
+        "github_url": "https://github.com/Rajas49/Property-Pricing-Analytics",
         "demo_url": None,
         "image_url": "/static/images/project3.jpg"
     }
@@ -35,7 +34,7 @@ SKILLS = {
     "frameworks": ["FastAPI", "Flask", "React"],
     "ai_ml": ["TensorFlow", "PyTorch", "LangChain", "OpenAI API"],
     "tools": ["Git", "Docker", "PostgreSQL", "MongoDB"],
-    "cloud": ["AWS", "Render", "Railway"]
+    "cloud": ["AWS", "Azure"]
 }
 
 ABOUT = {
