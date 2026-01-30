@@ -2,16 +2,16 @@
    Global Variables
 ======================== */
 :root {
-    --bg-main: #070525;
-    --bg-section: #070525;
-    --bg-alt: #070525;
+    --bg-main: #f4f6fb;
+    --bg-section: #ffffff;
+    --bg-alt: #f8f9fc;
 
-    --primary: #070525;
-    --secondary: #070525;
-    --accent: #070525;
+    --primary: #3b5bdb;
+    --secondary: #6f42c1;
+    --accent: #e7ebff;
 
-    --text-main: #070525;
-    --text-muted: #070525;
+    --text-main: #2c2f36;
+    --text-muted: #6b7280;
 
     --shadow-soft: 0 8px 25px rgba(0,0,0,0.08);
 }
